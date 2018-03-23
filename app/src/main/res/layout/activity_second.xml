@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_interval"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Interval"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_do"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="doOnNext"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/btn_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>

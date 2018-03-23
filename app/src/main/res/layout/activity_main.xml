@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HelloWorld"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_map"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Map"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zip"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_concat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Concat"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_flatmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FlatMap"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_concatmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ConcatMap"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_distinct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distinct"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Filter"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_buffer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buffer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_timer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Timer"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btn_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SecondActivity"
+        android:textAllCaps="false" />
+
+    <TextView
+        android:id="@+id/tv_hello"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" />
+
+
+</LinearLayout>
